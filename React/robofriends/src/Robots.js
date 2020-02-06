@@ -8,26 +8,26 @@ export const Robots = [
   {
     id: 2,
     name: 'Keyuri Naidoo28',
-    username: 'Antonette',
-    email: 'Shanna@melissa.tv'
+    username: 'Keyuri28',
+    email: 'Keyuri28@gmail.com'
   },
   {
     id: 3,
     name: 'Sayuri Naidoo26',
-    username: 'Samantha',
-    email: 'Nathan@yesenia.net'
+    username: 'Sayuri26',
+    email: 'Sayuri26@gmail.com'
   },
   {
     id: 4,
     name: 'Sayuran Naidoo26',
-    username: 'Karianne',
-    email: 'Julianne.OConner@kory.org'
+    username: 'Sayuran26',
+    email: 'Sayuran26@gmail.com'
   },
   {
     id: 5,
     name: 'Shamanta Koopan18',
-    username: 'Kamren',
-    email: 'Lucio_Hettinger@annie.ca'
+    username: 'Shamanta18',
+    email: 'Shamanta18@gmail.com'
   },
   {
     id: 6,
