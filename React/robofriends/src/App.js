@@ -4,7 +4,7 @@ import CardList from './CardList.js';
 import { Robots } from './Robots.js';
 import SearchBox from './SearchBox.js';
 import './App.css';
-
+import Scroll from './Scroll.js';
 class App extends Component {
 	//(this object describes the app in terms of what changes it, i.e Robots array and search field
 	constructor () {
@@ -28,7 +28,9 @@ class App extends Component {
 			<div className = "tc">
 				<h1 className='f1'>Krishan RoboFriends</h1>
 				<SearchBox searchChange={this.onSearchChange} />
-				<CardList Robots={filteredRobots}/>
+				<Scroll>
+					<CardList Robots={filteredRobots}/>
+				</Scroll>
 			</div>
 		);
 	}	
